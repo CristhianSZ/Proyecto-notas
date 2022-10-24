@@ -100,12 +100,12 @@ while(confirm("Continuar ingresando numeros?"));
 document.write(r);*/
 
 //Alternativa//
-/*var n,x, y, z, r= "Los numeros ingresados son: <br/>"
+var n,x, y, z, r= "Los numeros ingresados son: <br/>"
 do{
     n=parseInt(prompt("Se solicita ingresar un numero mayor a 10 para continuar el ciclo: "));
     r+=`El numero ingresado es: ${n} <br/>`;
     y=confirm("Continuar ingresando numeros?");
-    z= y && n>=10;
+    z= y && n>10;
 }
 while(z==true);
-document.write(r);*/
+document.write(r);
