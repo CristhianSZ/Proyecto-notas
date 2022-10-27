@@ -99,32 +99,22 @@ do{
 while(confirm("Continuar ingresando numeros?"));
 document.write(r);*/
 
-var n, r= "Los numeros ingresados son:<br>";
+/*var n, r= "Los numeros ingresados son:<br>";
 do{
     n=parseInt(prompt("Ingrese un numero: \n(Debe ingresar numeros mayor a 10)"));
     r+=`El numero ingresado e: ${n}`;
     r+='<br>'
 }
 while(n>10);
-document.write(r);
-
-
-
-
-
-
-
-
-
-
+document.write(r);*/
 
 //Alternativa//
-/*var n,x, y, z, r= "Los numeros ingresados son: <br/>"
+var n,x, y, z, r= ""
 do{
-    n=parseInt(prompt("Se solicita ingresar un numero mayor a 10 para continuar el ciclo: "));
-    r+=`El numero ingresado es: ${n} <br/>`;
+    n=parseInt(prompt("Se solicita ingresar un numero \n(mayor a 10 para continuar el ciclo): "));
     y=confirm("Continuar ingresando numeros?");
+    r+=`El numero ingresado es: ${n} <br/>`;
     z= y && n>10;
 }
 while(z==true);
-document.write(r);*/
+document.write(r);
