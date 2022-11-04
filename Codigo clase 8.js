@@ -154,3 +154,6 @@ switch(letra){
 document.write(r);
 alert(r);
 console.log(`La letra ingresada es:${letra}`);
+
+
+// este es un mensaje de prueba//
