@@ -209,6 +209,8 @@ document.write(r)*/
 /**11. Hacer un programa para ingresar cuatro números y luego mostrar por pantalla
 cuántos son menores a 100.
  */
+/*
+
 var n1= parseInt(prompt("Ingrese valor n1:"));
 var n2= parseInt(prompt("Ingrese valor n2:"));
 var n3= parseInt(prompt("Ingrese valor n3:"));
@@ -226,4 +228,7 @@ if(n3<100){
 if(n4<100){
     j++
 }
-document.write(`La cantidad de numeos menores a 100 es ` + j)
+document.write(`La cantidad de numeos menores a 100 es ` + j)*/
+
+
+
