@@ -1,18 +1,4 @@
-/**1. Hacer un programa que solicite el ingreso de 10 números y que muestre el
-mayor de ellos por pantalla. Solo se debe emitir UN valor por pantalla. */
-/*
-var num,i,r='';
-var valorMax;
-for(i=0;i<10;i++){
-    num = parseInt(prompt('Ingrese un numero:'));
-    if(i==0){
-        valorMax=num
-    }else if(num>valorMax){
-        valorMax=num
-    }
-}
-document.write(`EL mayor valor es: ${valorMax}`);*/
-
+/** Ejercicio 1*/
 
 var categoria =parseInt(prompt('Ingrese su categoria \n( 1 / 2 o 3)'));
 var subcategoria= prompt('Ingrese subcategoria: \n(A / B o C)');
