@@ -50,7 +50,7 @@ for(i=10;i>=1;i--){
 document.write(r)*/
 /**5. Hacer un programa que muestre los números del 1 al 100 de 5 en 5. Ejemplo:
 0, 5, 10, 15, 20.... 100. */
-
+/*
 var i, r='';
 
 for(i=0;i<=100;i++){
@@ -59,4 +59,4 @@ for(i=0;i<=100;i++){
     }
     
 }
-document.write(r)
+document.write(r)*/
