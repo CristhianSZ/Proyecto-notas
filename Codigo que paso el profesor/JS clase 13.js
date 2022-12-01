@@ -1,6 +1,6 @@
 /*Ejercicio 1 - clase 11
 
-var sigla = null;
+var sigla = null;//var operacion =null
 
 function IngresarSigla(){
     do{
